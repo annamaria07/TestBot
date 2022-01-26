@@ -19,7 +19,7 @@ def msg_received_from_group():
   
   #Check the text of the message sent to the chat to see if it matches our command word
   if data['text'].lower() == "hello":
-    send_msg("hello there everbody my name is markiplier")
+    send_msg("iM a brAvE bOy")
 	
 
   return "ok", 200
