@@ -18,8 +18,8 @@ def msg_received_from_group():
   log('{}'.format(data))
   
   #Check the text of the message sent to the chat to see if it matches our command word
-  if data['text'].lower() == "!test":
-    send_msg("Hello")
+  if data['text'].lower() == "!hello":
+    send_msg("hello there everbody my name is markiplier")
 	
 
   return "ok", 200
@@ -28,7 +28,8 @@ def msg_received_from_group():
 #Sends a message to the chat that the bot originates from
 def send_msg(msg):
   url  = 'https://api.groupme.com/v3/bots/post'
-  payload = { 'text' : msg, 'bot_id' : 'e4674e778e9972ea3137611978'}
+  payload = { 'text' : msg, 'bot_id' : '01169029234f8def95b495f31e
+'}
   r = requests.post(url, data=json.dumps(payload))
 
 #logging function to help debug
