@@ -18,8 +18,8 @@ def msg_received_from_group():
   log('{}'.format(data))
   
   #Check the text of the message sent to the chat to see if it matches our command word
-  if data['text'].lower() == "hello":
-    send_msg("iM a brAvE bOy")
+  if data['text'].lower() == "!hello":
+    send_msg("hello")
 	
 
   return "ok", 200
