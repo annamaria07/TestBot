@@ -33,7 +33,41 @@ def msg_received_from_group():
 
 	#Check the text of the message sent to the chat to see if it matches our command word
   if data['text'].lower() == "sing the disclaimer song":
-    send_msg("okie. ")
+    send_msg("okie. Hey now, don't try it at home
+Do do do do do
+Hey now, don't try it
+Don't you dare try it
+You might die if you do this at home
+Do do do do
+
+
+Oh, here's the bridge, woah
+Don't try it
+Don't do the thing that we're about to do
+Do do do do
+
+Oh, don't try this at all, or you'll die if
+You try this thing at home
+Do do do do do
+
+OH IT'S A KEY CHANGE!
+OH IT'S A KEY CHANGE!
+OH IT'S THE DISCLAIMER SONG!
+
+Don't try this at home
+If you do, you might die
+This is our disclaimer to you
+Hey, don't be that guy
+Just watch us do the thing you want to
+Dooooo
+Be safe
+For me
+But be safe
+For you
+
+DO DO DO DO
+
+BAA- ")
 
   return "ok", 200
 
