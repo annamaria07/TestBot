@@ -21,6 +21,9 @@ def msg_received_from_group():
   if data['text'].lower() == "hi mark!":
     send_msg("hello everybody my name is markiplier")
 	
+	#Check the text of the message sent to the chat to see if it matches our command word
+  if data['text'].lower() == "whasup":
+    send_msg("sup")
 
   return "ok", 200
 
