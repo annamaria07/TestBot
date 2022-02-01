@@ -32,6 +32,11 @@ def msg_received_from_group():
 
 
 	#Check the text of the message sent to the chat to see if it matches our command word
+  if data['text'].lower() == "show me the disclamer song please!":
+    send_msg("https://youtu.be/ppYYWdQlVNw")
+
+
+	#Check the text of the message sent to the chat to see if it matches our command word
   if data['text'].lower() == "sing the disclaimer song":
     send_msg("okie. Hey now, don't try it at home, du du du du. hey now don't try it, don't u dare try it. you might die if you do this at home, du du du- oooo heres the bridge, whoaaa. don't try it. don't do the thing that we're about to doooo. du du du- oh don't try this.. at all or you'll die if.. you try this thing at hoooooome du du du- ooooooooo its a key change, OOOOoooo its a key change, ooooOOOooOOO its the disclaimers sOOOOOOooooong....  don't try this at hoome, if you do you might diie, this is our disclaimer to ya, hey, don't be that guUuy, just watch us do the thing you wanna doooououooo- be safe, fo rme, but be safe, for youuuuu... DU DU DU DU-BA.")
 
